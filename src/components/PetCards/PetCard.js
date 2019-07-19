@@ -19,7 +19,7 @@ const PetCard = ({
       </button>
       <p className={styles.namePet}> All about {name}</p>
       <div className={styles.petAllInformation}>
-        <img src={image} alt="" />
+        <img src={image} alt="" className={styles.petImg} />
         <div className={styles.petInformation}>
           <p>
             <b>Age: </b>
